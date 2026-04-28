@@ -2,7 +2,8 @@ Year = input("What is your birth year? Ex. 2006")
 Month = input("What month were you born in? Ex. 11")
 Day = input("What day of the month were you born on? Ex.23")
 
-print("Your birthday is:" Month, Day, Year) 
+print("Your birthday is:")
+print(Month, Day, Year) 
 
 if ((int(Month)==12 and int(Day) >= 22) or (int(Month)==1 and int(Day)<= 19)):
     sign = ("\n Capricorn")
@@ -45,7 +46,20 @@ traits_options_11 = "Option 11: Independent, original, humanitarian, and intelle
 traits_options_12 = "Option 12: Compassionate, artistic, intuitive, and gentle."
 
 def select_traits():
-    print(traits_options_1 + \n traits_options_2 + \n traits_options_3 + \n traits_options_4 + \n traits_options_5 + \n traits_options_6 + \n traits_options_7 + \n traits_options_8 + \n traits_options_9 + \n traits_options_10 + \n traits_options_11 + \n traits_options_12)
+    print(
+        traits_options_1 + "\n" +
+        traits_options_2 + "\n" +
+        traits_options_3 + "\n" +
+        traits_options_4 + "\n" +
+        traits_options_5 + "\n" +
+        traits_options_6 + "\n" +
+        traits_options_7 + "\n" +
+        traits_options_8 + "\n" +
+        traits_options_9 + "\n" +
+        traits_options_10 + "\n" +
+        traits_options_11 + "\n" +
+        traits_options_12
+    )
     traits = input("Type which set of characteristics is most like you! Say the word option and the option number!")
     if traits == "Option 1":
        print("Your traits say you are: Aquarius")
@@ -71,6 +85,8 @@ def select_traits():
         print("Your traits say you are: Sagittarius")
     elif traits == "Option 12":
         print("Your traits say you are: Capricorn")
+
+select_traits()
 
 select_traits()
 
