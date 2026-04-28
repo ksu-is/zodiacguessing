@@ -3,7 +3,7 @@ Month = input("What month were you born in? Ex. 11")
 Day = input("What day of the month were you born on? Ex.23")
 
 print("Your birthday is:")
-print(Month, Day, Year) 
+print(Month,"/", Day,"/", Year)
 
 if ((int(Month)==12 and int(Day) >= 22) or (int(Month)==1 and int(Day)<= 19)):
     sign = ("\n According to your birth date, you are: Capricorn")
