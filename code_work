@@ -6,31 +6,35 @@ print("Your birthday is:")
 print(Month, Day, Year) 
 
 if ((int(Month)==12 and int(Day) >= 22) or (int(Month)==1 and int(Day)<= 19)):
-    sign = ("\n Capricorn")
+    sign = ("\n According to your birth date, you are: Capricorn")
 elif ((int(Month)==1 and int(Day) >= 20)or(int(Month)==2 and int(Day)<= 18)):
-    sign = ("\n Aquarius")
+    sign = ("\n According to your birth date, you are: Aquarius")
 elif ((int(Month)==2 and int(Day) >= 19)or(int(Month)==3 and int(Day)<= 20)):
-    sign = ("\n Pisces")
+    sign = ("\n According to your birth date, you are: Pisces")
 elif ((int(Month)==3 and int(Day) >= 21)or(int(Month)==4 and int(Day)<= 19)):
-    sign = ("\n Aries")
+    sign = ("\n According to your birth date, you are: Aries")
 elif ((int(Month)==4 and int(Day) >= 20)or(int(Month)==5 and int(Day)<= 20)):
-    sign = ("\n Taurus")
+    sign = ("\n According to your birth date, you are: Taurus")
 elif ((int(Month)==5 and int(Day) >= 21)or(int(Month)==6 and int(Day)<= 20)):
-    sign = ("\n Gemini")
+    sign = ("\n According to your birth date, you are: Gemini")
 elif ((int(Month)==6 and int(Day) >= 21)or(int(Month)==7 and int(Day)<= 22)):
-    sign = ("\n Cancer")
+    sign = ("\n According to your birth date, you are: Cancer")
 elif ((int(Month)==7 and int(Day) >= 23)or(int(Month)==8 and int(Day)<= 22)): 
-    sign = ("\n Leo")
+    sign = ("\n According to your birth date, you are: Leo")
 elif ((int(Month)==8 and int(Day) >= 23)or(int(Month)==9 and int(Day)<= 22)): 
-    sign = ("\n Virgo")
+    sign = ("\n According to your birth date, you are: Virgo")
 elif ((int(Month)==9 and int(Day) >= 23)or(int(Month)==10 and int(Day)<= 22)):
-    sign = ("\n Libra")
+    sign = ("\n According to your birth date, you are: Libra")
 elif ((int(Month)==10 and int(Day) >= 23)or(int(Month)==11 and int(Day)<= 21)): 
-    sign = ("\n Scorpio")
+    sign = ("\n According to your birth date, you are: Scorpio")
 elif ((int(Month)==11 and int(Day) >= 22)or(int(Month)==12 and int(Day)<= 21)):
-    sign = ("\n Sagittarius")
+    sign = ("\n According to your birth date, you are: Sagittarius")
 
 print(sign)
+
+print("Now let's find what zodiac you are most like based on your personality!")
+
+print("\n")
 
 traits_options_1 = "Option 1: Energetic, courageous, confident, and competitive."
 traits_options_2 = "Option 2: Patient, reliable, practical, and determined."
@@ -87,6 +91,3 @@ def select_traits():
         print("Your traits say you are: Capricorn")
 
 select_traits()
-
-select_traits()
-
