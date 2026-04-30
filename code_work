@@ -91,3 +91,35 @@ def select_traits():
         print("Your traits say you are: Capricorn")
 
 select_traits()
+
+def learn_more():
+    more_info = input("Would you like to learn more about your sign? Type yes or no:")
+    if more_info == "yes":
+        tell_sign = input("What is your sign?")
+        if tell_sign == "Aquarius":
+            print("Surprisingly, Aquarius is highly empathetic, but shielded by a cold front.\nAquarius wants to better the collective but is also highly selective with personal relationships.\nNo matter what, Aquarius tends to shine in its individualism.")
+        elif tell_sign == "Capricorn":
+            print("Capricorn focuses on building an empire, with its feminine cardinal abilities facilitated through earthy stoicism.\nCapricorn plays the long game to ensure incredible success.")
+        elif tell_sign == "Pisces":
+            print("Pisces weaves in and out of conscious reality thanks to its mystical mutability.\nGraced with water attributes, Pisces has this eclectic magic, gifted with psychic receptivity and scarily accurate intuition.")
+        elif tell_sign == "Virgo":
+            print("Virgo tends to strive for the best outcome at all times. \nSo, Virgo's critical nature is ideal for catching—then perfecting—every flaw. \nAfter all, nothing gets by the Virgin. And when lightning strikes, the volcanic nature of Virgo becomes electric!")
+        elif tell_sign == "Sagittarius":
+            print("Sagittarius tends to be an expressive, jolly sign with a booming presence.\nLarger than life, Sagittarius's planetary ruler, Jupiter, often gifts this sign with excessive tendencies and an abundance of luck.\nMuch like the Centaur, Sagittarius brazenly explores unknown territory.")
+        elif tell_sign == "Scorpio":
+            print("Scorpio's extraordinary fierceness is undeniable.\nBecause of its intensity, Scorpio tends to go through multiple phases of transformation,\nbeginning with the Scorpio and ending with the Phoenix.")
+        elif tell_sign == "Libra":
+            print("Libra values partnerships above all else, so its leadership capabilities heavily depend on social relations.\nAt times, Libra may come across as codependent or indecisive.\nIf anything, Libra wants to ensure that every decision is reciprocal!")
+        elif tell_sign == "Cancer":
+            print("Cancer's watery nature is often all in or all out.\nRuled by the moon, Cancer's psychic receptivity is incredible.\nIt is motherly, nurturing, and compassionate.\nIt's also usually wrapped up in a moody presence.")
+        elif tell_sign == "Leo":
+            print("Leo's natural habitat is the center stage for attention.\nBold and audacious, Leo's warmth remains unmoving—thanks to its fixed nature.\nWhile stubborn at times, Leo tends to remain enthusiastically engaged.")
+        elif tell_sign == "Gemini":
+            print(" Gemini's mutability is directly expressed thanks to its masculine nature.\nIt often comes out as a witty remark, a flippant hand gesture, and an overbooked schedule.")
+        elif tell_sign == "Aries":
+            print("Aries is known to be vivacious, enthusiastic, childish, and a bit selfish.\nAlthough this sign is impulsive and hotheaded, nobody can deny the quick-thinking and intense call-to-action innate in any Aries.")
+        elif tell_sign == "Taurus":
+            print("Taurus is always counted on for great taste and pleasurable pastimes.\nBut the phrase, “stubborn as a bull,” fits this zodiac sign beautifully, as it is represented by the Bull.\nHowever, nobody can deny Taurus' ability to weather any storm through thick and thin")
+    elif more_info == "no":
+        print("Okay! Thanks for playing!")
+learn_more()
